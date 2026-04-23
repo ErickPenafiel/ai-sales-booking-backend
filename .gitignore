@@ -1,0 +1,58 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Tests and coverage
+.pytest_cache/
+.coverage
+coverage.xml
+nosetests.xml
+
+# Environment variables
+.env
+.env.*
+
+# SQLite
+dev.db
+*.sqlite3
+
+# Media and uploads
+media/
+uploads/
+static/uploads/
+
+# Qdrant local data
+qdrant_data/
+
+# IDEs and editors
+.vscode/
+.idea/
+
+# Node
+node_modules/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+logs/
